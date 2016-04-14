@@ -1,0 +1,73 @@
+/* Ingresa tu css aqui*{outline:1px solid rgba(255,0,0,0.1);
+} */
+
+img{
+	max-width: 100%;
+}
+
+body{
+	text-align: center;
+}
+h1{
+	text-align: left;
+	font-size: 20px;
+}
+.contenedor{
+	margin: 0 300px;
+}
+.lista-menu{	
+	margin: 12px 0;
+	padding: 12px 0;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+.lista-menu li{
+	display: inline-block;
+	list-style-type: none;
+    border-right: 1px solid black;
+}
+.lista-menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	padding: 0 14px;
+}
+.lista-menu li:last-child{
+	border-right: none;
+}
+.linea-uno{
+	border: 1px solid black;
+	width: 50px;
+}
+.intro{
+	margin: 5px 100px;
+	font-size: 25px;
+}
+.lista-coders{
+	margin-top: 20px;
+	text-align: center;
+}
+.lista-coders li{
+	width: 28%;
+	margin: 8px; 
+    display: inline-block;
+    filter: alpha(opacity=50);
+}
+.lista-coders a{
+	position: relative;
+	display: block;
+}
+.lista-coders p{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	bottom:10px;
+	right: 10px;
+	text-align: left;
+}
+.linea-dos{
+	border-width: 3px;
+	border-color:#000;
+	width: 80px;
+	margin: 0;
+}
